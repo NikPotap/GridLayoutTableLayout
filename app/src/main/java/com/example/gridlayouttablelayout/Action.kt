@@ -218,6 +218,7 @@ fun actionClick(data: Status, con: Context) {
                             .show()
                         return
                     }
+                    data.inputET += "="
                     when (data.oper) {
                         "+" -> {
                             data.res = data.fo + data.so
