@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Калькулятор 2</string>
+    <string name="exit_for_menu">Закрыть</string>
+    <string name="calculqtor_is_stupid">Это глупый калькулятор, он так не умеет.</string>
+    <string name="error_division_by_zero">Делить на ноль нельзя.</string>
+    <string name="no_data">Нет данных</string>
+    <string name="clear_data">очистить</string>
+</resources>
