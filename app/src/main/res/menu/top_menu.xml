@@ -8,5 +8,5 @@
         android:title="@string/exit_for_menu"
         app:showAsAction="always"
         tools:ignore="MissingPrefix"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/ic_exit_foreground"/>
 </menu>

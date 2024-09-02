@@ -5,4 +5,5 @@
     <string name="error_division_by_zero">Делить на ноль нельзя.</string>
     <string name="no_data">Нет данных</string>
     <string name="clear_data">очистить</string>
+    <string name="need_clear">Для продолжения нажмите «очистить».</string>
 </resources>

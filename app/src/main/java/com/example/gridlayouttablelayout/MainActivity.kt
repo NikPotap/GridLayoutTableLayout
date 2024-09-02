@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var resultBTN: Button
     private lateinit var resetBTN: Button
 
-    private val status = Status("", false, false, 0.0, 0.0, 0.0, false, "", "")
+    private val status = Status("", false, false, 0.0, 0.0, 0.0, false, "0", "")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -94,8 +94,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         actionClick(status, this)
         if (status.oper == "0") {
             resultTV.text = ""
-            inputET.setText("")
-        }
+          }
         inputET.setText(status.inputET)
         if (status.completed) resultTV.text = status.res.toString()
     }
